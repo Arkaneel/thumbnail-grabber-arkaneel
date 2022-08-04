@@ -1,0 +1,81 @@
+*{
+  text-align: center;
+}
+p kbd{
+  font-family: Times New Roman;
+}
+	.container {
+		width: 100vw;
+		height: 370px;
+		position: absolute;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		margin-top:50px;
+		text-align: center;
+	}
+	input {
+		width: auto;
+		padding: 10px;
+		height: 20px;
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	input:focus {
+		outline: none;
+	}
+	button {
+		height: 44px;
+		width: 44px;
+		position: relative;
+		top: 5px;
+		background-color: #9048EA;
+		border: 0px;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	.img-container {
+		display: inline-block;
+		margin: 5px 10px;
+		position: relative;
+	}
+	.img-container img {
+		width: 250px;
+		border-radius: 5px;
+		filter:brightness(20%);
+	}
+	.download, .preview, .dimension{
+		position: absolute;
+		top: 5px;
+		background-color: white;
+		border-radius: 50%;
+		padding: 1px 3px;
+		left: 10px;
+		cursor: pointer;
+	}
+	.preview {
+		left: 206px;
+		padding: 1px 4px;
+	}
+	.dimension {
+		left: 0px;
+		right: 0px;
+		top: 52px;
+		background-color: rgba(0,0,0,0.00);
+		color: white;
+		font-size: 32px;
+		cursor: auto;
+	}
+	#output {
+		display: none;
+	}
+.res{
+  width: auto;
+  color: white;
+  font-family: Times New Roman;
+  margin-bottom: 40px;
+}
+.twitter-follow-button{
+  float: bottom;
+}
